@@ -18,4 +18,6 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 #     sql_on: ${users.id} = ${orders.user_id} ;;
 #   }
 # }
-explore: national_trends {}
+explore: national_trends {
+  hidden: yes
+}
