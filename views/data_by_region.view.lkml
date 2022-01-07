@@ -8,6 +8,10 @@ view: data_by_region {
     sql: ${TABLE}.country ;;
   }
 
+  filter: date_with_time {
+    type: date_time
+  }
+
   dimension_group: date {
     type: time
     timeframes: [
